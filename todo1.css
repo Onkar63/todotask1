@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(101, 126, 207);
+    ;
+}
+
+.container {
+    background: #ecd7fa;
+    ;
+    max-width: 700px;
+    width: 100%;
+    margin: 28px auto;
+    padding: 25px;
+}
+
+.container .select {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    height: 45px;
+}
+
+.select input {
+    text-align: center;
+    width: 83%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: none;
+}
+
+.select input:focus {
+    border-color: #8E49E8;
+}
+
+.select button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 33px;
+    background: #e809d9;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.select button:hover,
+.footer button:hover {
+    background: #b9b1c9;
+}
+
+.select button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.todoList li .icon {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #76a2e2;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.todoList li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 8px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: default;
+}
+
+.footer button {
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 387px;
+    font-size: 16px;
+    margin-left: 50px;
+    background: #1d0102;
+    cursor: pointer;
+}
+
+.container .footer {
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 123px;
+}
+
+.footer button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+header {
+    letter-spacing: 7px;
+    background: rgb(14, 85, 81);
+    background: linear-gradient(90deg, rgb(154, 147, 50) 0%, rgb(12, 2, 59) 50%, rgb(241, 132, 188) 100%);
+    color: rgb(239, 202, 202);
+    border-radius: 10px;
+    padding: 0%;
+    box-shadow: rgb(145, 127, 127) 5px 5px 20px;
+}
+
+header,
+form {
+    max-width: 712px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    height: 131px;
+}
+
+.main_heading h1 {
+    font-family: "Libre Baskerville", cursive;
+    font-size: 3rem;
+}
+
+#btn {
+    height: 50px;
+}
+
+.select {
+    margin-left: 40px;
+}
+.input{
+    background-color:rgb(212, 202, 188);
+}
